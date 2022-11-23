@@ -120,7 +120,7 @@ function ponto(check,nome){
 }
 	
 	function recarrega(){
-		window.location.href = "../";
+		window.location.href = "diariaF.php";
 	}
 
 
@@ -207,7 +207,7 @@ $q4 = pg_query("SELECT * FROM frequencia WHERE nome_completo = '$nome' AND ano =
 	<script>
 	
 		function reloaded(){
-			window.location.href = '../';
+			window.location.href = 'diariaF.php';
 		}
 
 	  function mudaicon3(){
